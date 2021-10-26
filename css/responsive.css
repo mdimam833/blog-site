@@ -1,0 +1,353 @@
+
+/* Responsive design device  */
+
+
+/* Device 992 px screen */
+@media screen and (max-width: 992px) {
+
+    /* common css start */
+
+
+
+
+
+    /* common css end */
+
+
+    /* header css start */
+
+
+
+
+
+    /* header css end */
+
+
+    /* main css start */
+
+    /* banner css start */
+    .banner-text {
+        grid-column: 1 / -1;
+    }
+    .banner-img {
+        grid-column: 1 / -1;
+        margin-top: 45px;
+    }
+    /* banner css end */
+    /* blog post css start */
+    .blog {
+        max-width: 90%
+    }
+    /* blog post css end */
+
+    /* about css start */
+
+    .card-containar {
+        grid-column-gap: 50px;
+        grid-row-gap: 50px;
+    }
+    .about-row {
+        height: 100%;
+        padding: 60px 0;
+        padding-top: 128px;
+    }
+    .card  {
+        grid-column: span 6;
+    }
+    /* about css end */
+
+    /* contact css start */
+    .contact-row {
+        grid-template-columns: 60%;
+    }
+    /* contact css end */
+
+
+
+    /*main  css end */
+
+
+    /* footer css start */
+
+
+
+
+
+    /*footer  css end */
+
+
+    
+}
+
+
+/* Device 768 px screen */
+@media screen and (max-width: 768px) {
+
+     /* common css start */
+
+     .containar {
+        max-width: 90%;
+     }
+
+
+
+    /* common css end */
+
+
+    /* header css start */
+    nav ul li a {
+        font-size: 16px;
+    }
+    nav ul li a:hover {
+        font-weight: lighter;
+
+    }
+
+
+
+    /* header css end */
+
+
+    /* main css start */
+    /* about css start */
+   
+    /* about css end */
+
+    /* archives section css  start */
+    .archives-row {
+        height: 100%;
+        padding: 150px 0;
+    }
+    .img-containar {
+        grid-template-columns: repeat(12, 1fr);
+        grid-row-gap: 20px;
+    }
+    .img-containar .img {
+        grid-column: span 6;
+    }
+    /* archives section css  end */
+
+    /* blog post css start */
+    #blog-post {
+        padding: 110px 0;
+        background: gray;
+    }
+    .blog-row {
+        height: 100%;
+    }
+    .blog {
+        margin-bottom: 50px;
+    }
+    .blog .img {
+        grid-column: 1 / -1;
+    }
+    .blog-content {
+        grid-column: 1 / -1;
+    }
+    .blog-content p {
+        font-size: 16px;
+    }
+    /* blog post css  end */
+
+
+
+
+    /*main  css end */
+
+
+    /* footer css start */
+
+
+
+
+
+    /*footer  css end */
+
+
+
+
+    
+}
+
+
+
+/* Device 600 px screen */
+@media screen and (max-width: 600px) {
+
+     /* common css start */
+
+
+
+
+
+    /* common css end */
+
+
+    /* header css start */
+    .logo {
+        grid-column: 1 / -1;
+        justify-self: center;
+    }
+    nav {
+        grid-column: 1 / -1;
+        width: 100%;
+        margin-top: 20px;
+    }
+    nav ul {
+        flex-direction: column;
+    }
+    nav ul li {
+        text-align: center;
+        background: #7f8c8d;
+        margin: 5px 0;
+        padding: 3px ;
+        border-radius: 5px;
+    }
+
+
+
+    /* header css end */
+
+
+    /* main css start */
+
+    /* banner css start */
+    .banner-text h1 {
+        font-size: 30px;
+    }
+    .banner-img .img {
+        max-width: 100%;
+    }
+    /* banner css end */
+
+    /* about css start */
+    #about {
+        padding-top: 290px;
+    }
+    .card-containar {
+        grid-column-gap: 0px;
+        grid-row-gap: 50px;
+        padding: 0 60px;
+        margin-top: 40px;
+    }
+    .card {
+        grid-column: span 12;
+    }
+    /* about css end */
+    #archives {
+        padding-top: 290px;
+    }
+    
+    /* contact css start */
+    .contact-row {
+        grid-template-columns: 90%;
+        height: 100%;
+    }
+    form {
+        margin-top: 20px;
+    }
+    label {
+        font-size: 14px;
+    }
+    input {
+        font-size: 16px;
+    }
+    /* contact css end */
+
+
+    /*main  css end */
+
+
+    /* footer css start */
+    .footer-row {
+
+    }
+    .copy {
+        grid-column: 1 / -1;
+        align-self: center;
+        justify-self: center;
+    }
+    .icon {
+        grid-column: 1 / -1;
+        align-self: center;
+        justify-self: center;
+        margin-top: 10px;
+        order: 1;
+    }
+
+
+    /*footer  css end */
+
+
+
+    
+}
+
+/* Device 400 px screen */
+@media screen and (max-width: 400px) {
+
+     /* common css start */
+
+
+
+
+
+    /* common css end */
+
+
+    /* header css start */
+
+
+
+
+
+    /* header css end */
+
+
+    /* main css start */
+
+    .banner-img .img {
+        height: 260px;
+    }
+    .banner-text p {
+        font-size: 16px;
+    }
+
+    /* about css start */
+    .card-containar {
+        padding: 0 11px;
+    }
+    .card p {
+        
+        font-size: 16px;
+    }
+    /* about css end */
+    /* archives section css  start */
+    .archives-row .dotted-line {
+        margin-bottom: 18px;
+    }
+    .img-containar {
+        grid-column-gap: 0px;
+    }
+    .img-containar .img {
+        grid-column: span 12;
+    }
+    /* archives section css  end */
+
+
+
+    /*main  css end */
+
+
+    /* footer css start */
+
+
+
+
+
+    /*footer  css end */
+
+
+
+    
+}
